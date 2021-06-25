@@ -1,0 +1,226 @@
+/*VENTA*/
+
+#titulo{
+    font-size: 30;
+    text-align: center;
+    padding-top: 23px;
+}
+
+/* SLIDESHOW */
+
+.contenedor{
+    display: flex;
+    border-radius: 5%;
+    margin: 2%;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif; margin:0}
+.myslide {
+    display: none;
+    text-align: center;
+}
+img {
+    vertical-align: middle;
+    width: 85%;
+}
+
+.slideshow {
+    max-width: 40%;
+    position: relative;
+    margin-right: 0%;
+    flex: 1;
+}
+
+/* botones siguiente y anterior */
+
+.anterior, .siguiente{
+    color: rgb(159, 0, 252);
+    cursor: pointer;
+    position: absolute;
+    top: 36%;
+    width: auto;
+    padding-block: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.siguiente { 
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.anterior:hover, .siguiente:hover {
+    background-color: rgb(212, 104, 255);
+}
+
+.texto {
+    color: #000000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #000000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+.active, .punto:hover {
+background-color: #717171;
+}
+
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+.anterior, .siguiente,.texto {font-size: 11px}
+}
+
+
+/*texto de venta e info*/
+.info_contacto{
+    background-color: rgb(91, 37, 190);
+    left: 0%;
+    flex: 1;
+    border-radius: 30px 30px;
+    /*border-top-right-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px ;*/
+}
+
+#info{
+    padding: 5%;
+    color: rgb(232, 231, 241);
+    font-size: 30px;
+    font-family: 'Arial Narrow', Arial;
+}
+
+#nombre_moto{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.boton{
+    width: 100%;
+    padding: 30px  ;
+    text-align: center;
+    background-color: rgb(44, 178, 255);
+    border-radius: 15px 15px;
+    color: rgb(5, 70, 252);
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3%;
+}
+
+#otra_pagina{
+    width: 100%;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+/*RESTAURACIONES*/
+body{
+    background-color: rgb(247, 241, 253);
+}
+
+
+#encabezados{
+    text-align: center ;
+}
+
+#texto_bajo{
+    text-align: center;
+}
+
+
+#articulo_1{
+    float: left;
+    width: 50%;
+    background-color: darkorange;
+}
+
+#img_1_left{
+    float: left;
+    width: 50%;
+}
+
+#img_1_right{
+    float: right;
+    width: 50%;
+}
+
+#kurazai_1_antes{
+    background-color: rgb(251, 255, 0);
+    width: 50%;
+    height: 30%;
+    float: center;
+}
+
+#kurazai_1_despues{
+    background-color: rgb(251, 255, 0);
+    width: 50%;
+    height: 30%;
+    float: center;
+}
+
+#moto_2{
+    float: left;
+    width: 50%;
+}
+
+#articulo_2{
+    float: right;
+    width: 50%;
+    background-color: rgba(255, 60, 0, 0.986);
+}
+
+
+
+
+#italika_1_antes{
+    background-color: rgb(251, 255, 0);
+    width: 50%;
+    height: 30%;
+}
+
+#italika_1_despues{
+    background-color: rgb(251, 255, 0);
+    width: 30%;
+    height: 30%;
+}
+
+
+
+#venta{
+    background-color: cadetblue;
+}
+
+
+

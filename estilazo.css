@@ -1,5 +1,17 @@
 /*VENTA*/
 
+@font-face {
+    font-family: roadway;
+    src: url(./roadway/ROADWAY_.ttf);
+}
+
+
+body{
+    background-color: rgb(254, 186, 39);
+    font-family: Arial, Verdana, sans-serif;
+    margin:0;
+}
+
 #titulo{
     font-size: 50;
     text-align: center;
@@ -23,8 +35,8 @@
     margin: 2%;
 }
 
+
 * {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif; margin:0}
 .myslide {
     display: none;
     text-align: center;
@@ -221,5 +233,12 @@ to {opacity: 1}
     background-color: cadetblue;
 }
 
+@media only screen and (max-width: 600px) {
+    .contenedor {
+        display: block;
+    }
 
-
+    .slideshow {
+        max-width: 100%;
+    }
+}

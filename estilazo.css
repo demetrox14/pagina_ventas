@@ -5,6 +5,12 @@
     src: url(./roadway/ROADWAY_.ttf);
 }
 
+@media only screen and (min-width: 600px) {
+  .anterior:hover, .siguiente:hover {
+    background-color: rgb(68, 62, 12);
+  }    
+}
+
 
 body{
     background-color: rgb(254, 186, 39);
@@ -77,10 +83,6 @@ img {
 .anterior {
         border-radius: 10px 10px;
 
-}
-
-.anterior:hover, .siguiente:hover {
-    background-color: rgb(68, 62, 12);
 }
 
 .numbertext {
@@ -242,3 +244,4 @@ to {opacity: 1}
         max-width: 100%;
     }
 }
+

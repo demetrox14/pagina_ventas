@@ -247,11 +247,11 @@ to {opacity: 1}
     }
 
     .anterior {
-        left: -15;
+        left: -5%;
     }
 
     .siguiente {
-        right: -15;
+        right: -5%;
     }
 
     .slideshow {

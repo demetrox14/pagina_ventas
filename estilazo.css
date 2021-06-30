@@ -246,6 +246,14 @@ to {opacity: 1}
         max-width: 100%;
     }
 
+    .anterior {
+        left: -15;
+    }
+
+    .siguiente {
+        right: -15;
+    }
+
     .slideshow {
         max-width: 100%;
     }

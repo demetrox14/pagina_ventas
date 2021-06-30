@@ -11,7 +11,6 @@
   }    
 }
 
-
 body{
     background-color: rgb(254, 186, 39);
     font-family: Arial, Verdana, sans-serif;
@@ -21,7 +20,6 @@ body{
 #titulo{
     font-size: 50;
     text-align: center;
-    padding-top: 23px;
     color: ffffff;
     font-family: roadway;
 }
@@ -39,24 +37,30 @@ body{
     display: flex;
     border-radius: 5%;
     margin: 2%;
+    justify-content: center;
+    align-items: center;
 }
 
 
-* {box-sizing: border-box;}
+
+* {
+    box-sizing: border-box;
+}
 .myslide {
     display: none;
     text-align: center;
+    align-items:center;
 }
 img {
     vertical-align: middle;
-    width: 85%;
+    width: 80%;
 }
 
 .slideshow {
-    max-width: 40%;
+    max-width: 55%;
     position: relative;
-    margin-right: 0%;
     flex: 1;
+
 }
 
 /* botones siguiente y anterior */
@@ -65,13 +69,13 @@ img {
     color: rgb(255, 254, 242 );
     cursor: pointer;
     position: absolute;
-    top: 44%;
+    top: 50%;
+    margin-top: -22px;
     width: auto;
     padding: 10px;
     font-weight: bold;
     font-size: 40px;
     transition: 0.6s ease;
-    border-radius: 3px 3px 3px 3px;
     user-select: none;
 }
 
@@ -120,21 +124,18 @@ to {opacity: 1}
 
 
 /*texto de venta e info*/
-.info_contacto{
+
+#info{
     background-color: rgb(254, 186, 39);
     left: 0%;
     flex: 1;
     border-radius: 30px 30px;
-    /*border-top-right-radius: 30px 30px;
-    border-bottom-right-radius: 30px 30px ;*/
-}
-
-#info{
     padding: 5%;
     color: rgb(68, 62, 12 );
     font-size: 30px;
     font-family: 'Arial Narrow', Arial;
-    width: 80%;
+    max-width: 40%;
+    text-align: center;
 }
 
 #nombre_moto{
@@ -144,7 +145,6 @@ to {opacity: 1}
 }
 
 .boton{
-    padding: 30px  ;
     text-align: center;
     background-color: rgb(29, 28, 24 );
     border-radius: 15px 15px;
@@ -238,6 +238,10 @@ to {opacity: 1}
 @media only screen and (max-width: 600px) {
     .contenedor {
         display: block;
+    }
+
+    #info{
+        max-width: 100%;
     }
 
     .slideshow {
